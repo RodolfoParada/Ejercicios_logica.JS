@@ -9,6 +9,17 @@
  * - Dos palabras exactamente iguales no son anagrama.
  */
 
+ /*
+ Un anagrama es una palabra o frase formada al reordenar las letras de otra palabra 
+ o frase, utilizando exactamente las mismas letras y en la misma cantidad.
+ Características de un anagrama:
+ Debe usarse cada letra exactamente el mismo número de veces que aparece en la palabra original.
+ Los espacios, mayúsculas y puntuación suelen ignorarse al considerar si es un anagrama.
+ Ejemplo de anagramas:
+ "amor" → "Roma".
+ "Escucha" → "Cuchas".
+ "Elvis" → "Viles".
+ */
  function sonAnagramas(palabra1, palabra2){
     //Convertir ambas palabras a minúsculas y eliminar espacios
     const palabra1Procesada = palabra1.toLowerCase().trim(); 
