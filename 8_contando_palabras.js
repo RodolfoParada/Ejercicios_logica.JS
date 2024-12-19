@@ -11,7 +11,6 @@
 
 function contarPalabras(texto) {
     // Eliminar signos de puntuación y convertir a minúsculas
-    const textoLimpio = texto.replace(/[^\w\s]/gi, '').toLowerCase();
     /*
     `replace(/[^\w\s]/gi, '').toLowerCase()` elimina los signos de puntuación y convierte el texto a minúsculas.
     Usa una expresión regular para eliminar cualquier carácter que no sea una palabra (\w) o un espacio (\s).
@@ -20,6 +19,7 @@ function contarPalabras(texto) {
     g: búsqueda global (aplica a todo el texto).
     i: insensible a mayúsculas y minúsculas.
     */ 
+    const textoLimpio = texto.replace(/[^\w\s]/gi, '').toLowerCase();
     
     // Dividir el texto en palabras
     /*
@@ -29,6 +29,7 @@ function contarPalabras(texto) {
     (incluye espacios, tabulaciones y saltos de línea).  
      */    
     const palabras = textoLimpio.split(/\s+/);
+    
     // Contar la frecuencia de cada palabra
     /*
     Un bucle `for` cuenta la frecuencia de cada palabra.
