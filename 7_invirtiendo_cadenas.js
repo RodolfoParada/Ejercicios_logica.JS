@@ -20,7 +20,7 @@ function invertirCadena(texto) {
     return resultado;
 }
 
-const texto = "Rodolfo Jacob Parada González";  // Cadena de texto de ejemplo
+const texto = "Hola";  // Cadena de texto de ejemplo
 const textoInvertido = invertirCadena(texto);
 console.log(textoInvertido);  // Imprime el texto invertido
 
