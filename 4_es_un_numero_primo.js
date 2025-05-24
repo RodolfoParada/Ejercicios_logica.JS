@@ -23,7 +23,12 @@ function esPrimo(num){
     }
 }
     return true; // Si no se encontró ningún divisor, es primo
+
+
 }
+console.log(esPrimo(3))
+
+
 
 // Imprimir los números primos entre 1 y 100
 for(let i = 1; i<=100; i++){
